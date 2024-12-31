@@ -1,31 +1,104 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Fabiano Falcão - Online Resume</title>
-	
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Fabiano Falcão">    
-	<link rel="shortcut icon" href="favicon.ico"> 
+    <title>Fabiano Falcão - Personal Website</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fabiano Fabiano - Personal Website">
+    <meta name="author" content="Fabiano Falcão">    
+    <link rel="shortcut icon" href="favicon.ico"> 
 	
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 
+	<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
 	
-	<!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
+	<!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
 	
 	<!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+
 
 </head> 
 
 <body>
 	
+	<header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Fabiano Falcão</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/resume-profile.jpeg" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Fabiano Falcão [fa.biˈɐ.nu fawˈkɐ̃w̃]. I'm a Software Engineer and AI Researcher. Welcome to my personal website!</div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <!--<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li> -->
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/fabiano-falcao/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/fabianumfalco" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li> -->
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
+						<li class="list-inline-item"><a href="mailto:fabianum.falco@gmail.com"><i class="fas fa-envelope-square fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="http://lattes.cnpq.br/5596149568174178" target="_blank"><i class="fas fa-globe fa-fw"></i></a></li>
+						<!-- <li class="list-inline-item"><a href="https://github.com/fabianumfalco" target="_blank">
+							<i class="fa-brands fa-google-scholar" style="color: #63E6BE;"></i>	 						
+						</a></li> -->
+						
+
+
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					 <li class="nav-item">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw me-2"></i>About Me</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link active" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume<span class="sr-only">(current)</span></a>
+					</li>						
+					<!--<li class="nav-item">
+					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw me-2"></i>Blog Post</a>
+					</li> -->
+				</ul>
+				
+				<!-- <div class="my-2 my-md-3">
+				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
+				</div> -->
+
+				<div class="dark-mode-toggle text-center w-100">
+					<hr class="mb-4">
+					<h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+					
+					<input class="toggle" id="darkmode" type="checkbox">
+					<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					
+				</div><!--//dark-mode-toggle-->
+
+			</div>
+		</nav>
+    </header>
+	
 	<div class="main-wrapper">
-		<div class="container px-3 px-lg-5">
+		<section class="cta-section theme-bg-light py-5">
+			<div class="container text-center single-col-max-width">
+				<h2 class="heading mb-3">Online Resume</h2>
+				<!-- <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank"><i class="fas fa-file-pdf me-2"></i>Download PDF Version</a> -->
+				
+			</div><!--//container-->
+		</section>
+		<div class="container resume-container px-3 px-lg-5">
 			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 				
 				<div class="resume-header">
@@ -50,12 +123,12 @@
 				<div class="resume-intro py-3">
 					<div class="row align-items-center">
 						<div class="col-12 col-md-3 col-xl-2 text-center">
-						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/resume-profile.jpeg" alt="image">
-						</div>
+						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded-circle mx-auto" src="assets/images/resume-profile.jpeg" alt="image">
+						</div>					
 						
 						<div class="col text-start">
 							<p class="mb-0">
-								Software Developer at the <a href="https://www2.camara.leg.br/english" target="_blank">Chamber of Deputies of Brazil</a>. <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank">AWS Certified Machine Learning Specialty</a>. Master's degree student in Cyber Security (MSC) with research in Artificial Intelligence (AI) at the <a href="https://www.unb.br/" target="_blank">University of Brasília (UnB)</a>. Bachelor's degree in Computer Science and Specialist degree in Software Engineering at the <a href="https://ucb.catolica.edu.br/" target="_blank">Catholic University of Brasilia (UCB)</a>. MBA in Strategic Leadership and Development of High Performance Teams at the <a href="https://ipog.edu.br/" target="_blank">Instituto de Pós-Graduação e Graduação (IPOG)</a>.
+								Seasoned Software Developer with over two decades of experience in software development and project management, combining extensive technical expertise with strategic leadership. Currently pursuing a Professional Master's degree in Cyber Security, focusing on Artificial Intelligence research applications. An <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank">AWS Certified Machine Learning Specialty</a>, bringing together practical industry experience with advanced academic knowledge in emerging technologies.
 						</div><!--//col-->
 					</div>
 				</div><!--//resume-intro-->
@@ -69,11 +142,11 @@
 								<div class="item mb-3"> <!--item-->
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cyber Security MSc</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">University of Brasília (UnB) | 2024 - Present</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">University of Brasília (UnB) | <br>2024 - Present</div>
 										
 									</div>
 									<div class="item-content">
-										<p> Student, supervised by <a href="https://ednacanedo.github.io/" target="_blank">PhD Edna Dias Canedo</a>, of the Professional Master's Degree in Electrical Engineering (<a href="https://international.unb.br/" target="_blank">PPEE/ENE</a>) at the <a href="https://www.unb.br/" target="_blank">University of Brasília (UnB)</a>.
+										<p> Student advised by <a href="https://ednacanedo.github.io/" target="_blank">PhD Edna Dias Canedo</a> in the <a href="https://ppee.unb.br/" target="_blank"> Professional Graduate Program in Electrical Engineering (PPEE)</a> at the <a href="https://international.unb.br/" target="_blank">University of Brasília (UnB)</a>, <a href="http://www.ene.unb.br/" target="_blank">Department of Electrical Engineering (ENE)</a>.
 										<p>	
 										Dissertation: Using Machine Unlearning Techniques to Mitigate Bias in Predictive Models								
 									</div>
@@ -93,7 +166,7 @@
 								<div class="item mb-3"> <!--item-->
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Specialist in Software Engineering</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | 2003 - 2005</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | <br>2003 - 2005</div>
 										
 									</div>
 									<div class="item-content">
@@ -105,7 +178,7 @@
 								<div class="item mb-3"> <!--item-->
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Computer Science BS										</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | 1997 - 2001</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | <br> 1997 - 2001</div>
 										
 									</div>
 									<div class="item-content">
@@ -121,7 +194,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Legislative Analyst - Information Technology</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Câmara dos Deputados | 2024 - Present</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Câmara dos Deputados | <br>2024 - Present</div>
 										
 									</div>
 									<div class="item-content">
@@ -138,7 +211,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Judiciary Analyst - Information Technology</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Tribunal Superior Eleitoral (TSE) | 2007 - 2024</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Tribunal Superior Eleitoral (TSE) | <br>2007 - 2024</div>
 									</div>
 									<div class="item-content">
 										Roles and positions:
@@ -203,7 +276,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Engineer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Politec Information Technology | 2004 - 2006</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Politec Information Technology | <br>2004 - 2006</div>
 										
 									</div>
 									<div class="item-content">
@@ -247,7 +320,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Requirements Analyst</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Cast group | 2004 - 2004</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Cast group | <br>2004 - 2004</div>
 									</div>
 									<div class="item-content">
 										<p>Software Requirements Analyst in the "Justiça Moderna" software project of the  Brazil's Court of Justice of the Federal District and Territories.</p>
@@ -264,7 +337,7 @@
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">CTIS Information Technology | 2003 - 2003</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">CTIS Information Technology | <br>2003 - 2003</div>
 									</div>
 									<div class="item-content">
 										<p>Software Requirements Analyst, Software Design and Software Developer in maintenance of Human Resources Management software and Account Process Management software for the Brazil's Federal Court of Accounts (TCU). </p>
@@ -284,7 +357,7 @@
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Network Analyst/Consultant</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">NT Group | 2000 - 2003</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">NT Group | <br>2000 - 2003</div>
 									</div>
 									<div class="item-content">
 										<p>Network Analyst and Developer in the COMVERGER® solution project, a corporate governance system for Telecom and IT networks. Network Consultant in deployments, customizations and supports of Hewlett-Packard's HP OpenView Performance Insight (OVPI) software in clients from the private and public sectors.</p>
@@ -334,23 +407,11 @@
 							</section><!--//work-section-->
 
 							
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project (soon)</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
-										
-									</div>
-									<div class="item-content">
-										<p>Soon I will include information about my side projects in my portfolio or that I collaborate on Github.</p>										
-									</div>
-								</div><!--//item-->
-							</section><!--//project-section-->	
-
+							
+								
 						</div><!--//resume-main-->
 						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-							<center><img width="200" height="200" src="assets/images/AWS-Certified-Machine-Learning-Specialty_badge.png" alt="image"></center>
+							<center><a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank"><img width="200" height="200" src="assets/images/AWS-Certified-Machine-Learning-Specialty_badge.png" alt="image"></a></center>
 							<section class="skills-section py-3">
 								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
 								<div class="item">
@@ -444,8 +505,17 @@
 				</footer>
 				
 			</div><!--//main-wrapper-->
-			
 
-</body>
-</html> 
+
+			<!-- Javascript -->          
+			<script src="assets/plugins/popper.min.js"></script> 
+			<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+			
+			<!-- Dark Mode -->
+			<script src="assets/plugins/js-cookie.min.js"></script>
+			<script src="assets/js/dark-mode.js"></script>
+  
+		
+		</body>
+		</html> 
 

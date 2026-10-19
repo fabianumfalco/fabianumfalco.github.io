@@ -1,547 +1,1217 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <title>Fabiano Falcão - Personal Website</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fabiano Fabiano - Personal Website">
-    <meta name="author" content="Fabiano Falcão">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-	
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 
-	<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
-	
-	<!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-	
-	<!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
-
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
-
-
-</head> 
-
-<body>
-	
-	<header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Fabiano Falcão</a></h1>
-        
-	    <nav class="navbar navbar-expand-lg navbar-dark" >
-           
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div id="navigation" class="collapse navbar-collapse flex-column" >
-				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/resume-profile.jpeg" alt="image" >			
-					
-					<div class="bio mb-3">Hi, my name is Fabiano Falcão [fa.biˈɐ.nu fawˈkɐ̃w̃]. IT Governance Advisor, Software Engineer, and AI, Privacy & Cybersecurity Researcher with over 20 years of experience spanning technology, governance, and digital transformation. Welcome to my personal website!</div><!--//bio-->
-					<ul class="social-list list-inline py-3 mx-auto">
-			            <!--<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li> -->
-			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/fabiano-falcao/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://github.com/fabianumfalco" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li> -->
-			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
-						<li class="list-inline-item"><a href="mailto:fabianum.falco@gmail.com"><i class="fas fa-envelope-square fa-fw"></i></a></li>
-						<li class="list-inline-item"><a href="http://lattes.cnpq.br/5596149568174178" target="_blank"><i class="fas fa-globe fa-fw"></i></a></li>
-						<!-- <li class="list-inline-item"><a href="https://github.com/fabianumfalco" target="_blank">
-							<i class="fa-brands fa-google-scholar" style="color: #63E6BE;"></i>	 						
-						</a></li> -->
-						
-
-
-			        </ul><!--//social-list-->
-			        <hr> 
-				</div><!--//profile-section-->
-				
-				<ul class="navbar-nav flex-column text-start">
-					 <li class="nav-item">
-					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw me-2"></i>About Me</a>
-					</li>
-					<li class="nav-item">
-					    <a class="nav-link active" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume<span class="sr-only">(current)</span></a>
-					</li>						
-					<!--<li class="nav-item">
-					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw me-2"></i>Blog Post</a>
-					</li> -->
-				</ul>
-				
-				<!-- <div class="my-2 my-md-3">
-				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
-				</div> -->
-
-				<div class="dark-mode-toggle text-center w-100">
-					<hr class="mb-4">
-					<h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
-					
-					<input class="toggle" id="darkmode" type="checkbox">
-					<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
-					
-				</div><!--//dark-mode-toggle-->
-
-			</div>
-		</nav>
-    </header>
-	
-	<div class="main-wrapper">
-		<section class="cta-section theme-bg-light py-5">
-			<div class="container text-center single-col-max-width">
-				<h2 class="heading mb-3">Online Resume</h2>
-				<!-- <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank"><i class="fas fa-file-pdf me-2"></i>Download PDF Version</a> -->
-				
-			</div><!--//container-->
-		</section>
-		<div class="container resume-container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-				
-				<div class="resume-header">
-					<div class="row align-items-center">
-						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-							<h2 class="resume-name mb-0 text-uppercase">Fabiano Falcão</h2>
-							<div class="resume-tagline mb-3 mb-md-0">IT Governance | AI & Software Engineering | MSc in Cybersecurity</div>
-						</div><!--//resume-title-->
-						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-							<ul class="list-unstyled mb-0">
-								<!-- <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">0123 4567 890</a></li>-->
-								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:fabianum.falco@gmail.com">fabianum.falco@gmail.com</a></li>
-								<li class="mb-2"><i class="fas fa-brands fa-medium fa-lg me-2"></i><a class="resume-link" href="https://fabianofalcao.medium.com/" target="_blank">fabianofalcao</a></li>
-								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="http://lattes.cnpq.br/5596149568174178" target="_blank">Lattes resume (Brazil)</a></li>
-								<li class="mb-2"><i class="fas fa-graduation-cap fa-fw fa-lg me-2"></i><a class="resume-link" href="https://scholar.google.com.br/citations?user=kKUVlwTr8GQC&hl=en" target="_blank">Google Scholar</a></li>
-								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i><a class="resume-link" href="https://goo.gl/maps/HNBo1SGBSiaCnQBN8" target="_blank">Brasília, Brazil (GMT -03:00)</a></li>
-							</ul>
-						</div><!--//resume-contact-->
-					</div><!--//row-->
-					
-				</div><!--//resume-header-->
-				<hr>
-				<div class="resume-intro py-3">
-					<div class="row align-items-center">
-						<div class="col-12 col-md-3 col-xl-2 text-center">
-						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded-circle mx-auto" src="assets/images/resume-profile.png" alt="image">
-						</div>					
-						
-						<div class="col text-start">
-							<p class="mb-0">
-								Experienced IT professional with over 20 years of experience in software engineering, IT governance, IT management, and digital transformation. Combines deep technical expertise with a strategic perspective developed through leadership, governance, and advisory roles in large-scale public-sector organizations.
-							</p> 
-							<p class="mb-0">
-								Holds an MSc in Cybersecurity, with applied research at the intersection of Artificial Intelligence, Software Engineering, and Data Privacy, and is <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank">AWS Certified Machine Learning Specialty</a>.
-							</p>
-						</div><!--//col-->
-					</div>
-				</div><!--//resume-intro-->
-				<hr>
-				<div class="resume-body">
-					<div class="row">
-						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
-							
-							<section class="project-section py-3"></section> <!--education-section-->
-								<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-								<div class="item mb-3"> <!--item-->
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cyber Security MSc</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">University of Brasília (UnB) | <br>2024 - 2026</div>
-										
-									</div>
-									<div class="item-content">
-										<p> Student advised by <a href="https://ednacanedo.github.io/" target="_blank">PhD Edna Dias Canedo</a> in the <a href="https://ppee.unb.br/" target="_blank"> Professional Graduate Program in Electrical Engineering (PPEE)</a> at the <a href="https://international.unb.br/" target="_blank">University of Brasília (UnB)</a>, <a href="http://www.ene.unb.br/" target="_blank">Department of Electrical Engineering (ENE)</a>.		
-										<p>	
-										Dissertation: Evaluating Architectural Strategies for Personal Data Detection in Java Source Code Using Transformer Classifiers and Large Language Models.						
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3"> <!--item-->
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Leadership MBA </h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"> Instituto de Pós-Graduação e Graduação (IPOG) | 2021 - 2022</div>
-										
-									</div>
-									<div class="item-content">
-										<p> Specialist degree with MBA (Master of Business Administration) in Strategic Leadership and Development of High Performance Teams at  <a href="https://ipog.edu.br/" target="_blank">Instituto de Pós-Graduação e Graduação (IPOG)</a> (In english: Postgraduate and Undergraduate Institute)
-										<p>	
-										Dissertation: Improvements in Electoral Justice indicators after the implementation of the Electronic Judicial Process and growth in remote work driven by the Covid-19 pandemic							
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3"> <!--item-->
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Specialist in Software Engineering</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | <br>2003 - 2005</div>
-										
-									</div>
-									<div class="item-content">
-										<p> Specialist degree in Software Engineering at the <a href="https://ucb.catolica.edu.br/" target="_blank">Catholic University of Brasilia (UCB)</a>
-										<p>	
-										Dissertation: A Measurement Approach Using Function Points in the Unified Process								
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3"> <!--item-->
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Computer Science BS										</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Catholic University of Brasilia (UCB) | <br> 1997 - 2001</div>
-										
-									</div>
-									<div class="item-content">
-										<p> Bachelor of Science (BS) in Computer Science with a concentration in computer networks at the <a href="https://ucb.catolica.edu.br/" target="_blank">Catholic University of Brasilia (UCB)</a>.
-										<p>	
-										Dissertation: PitCop - Sistema de Detecção de Intrusos (IDS - Intrusion Detection System)								
-									</div>
-								</div><!--//item-->
-							</section><!--//education-section-->
-							
-							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Legislative Analyst - Information Technology</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Câmara dos Deputados | <br>2024 - Present</div>
-										
-									</div>
-									<div class="item-content">
-										<p>
-											Roles and positions:
-											<ul class="resume-list">
-												<li>[2025-present] ICT Technical Advisor at the Legal Support Unit (Sejur), within the Administrative Management Coordination Office (Cogea) of the Innovation and Information Technology Directorate (Ditec), the institution’s central ICT organization led by the Chief Information Officer (CIO). Responsible for ICT procurement planning, budget planning and management, review of procurement planning documents, analysis of IT regulations and policies, support for ICT governance initiatives, and provision of technical advisory services on administrative and strategic IT matters.</li>
-												<li>[2024-2025] Java Developer for Human Resources Management solutions, responsible for the development, maintenance, support, and evolution of corporate systems that provide technological support for human resources management processes.</li>
-											</ul>
-										</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">IT Technical Consulting</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">IT Governance</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">IT Bidding and Contracts</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Java</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle</span></li>		
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->									
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Judiciary Analyst - Information Technology</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Tribunal Superior Eleitoral (TSE) | <br>2007 - 2024</div>
-									</div>
-									<div class="item-content">
-										Roles and positions:
-										<ul class="resume-list">
-											<li>[2024] Tech lead of the Software Architecture, Secure Development and Technological Prospecting team related to Lawsuit and Partisan Accountability Solutions.</li>
-											<li>[2021 - 2024] Technical consultant in a working group focused on researching and suggesting Artificial Intelligence solutions to be implemented in the Brazilian Electoral Justice.</li>
-											<li>[2015 - 2023] System analyst and manager of the support and innovation team of the lawsuit system used by the Brazilian Electoral Justice.</li>
-											<li>Manager of the customization and deployment team of the "Processo Judicial Eletrônico" (PJe) software in the Brazilian Electoral Justice and of technical support team of the that software in the Brazilian Elections of 2018 and 2020.</li>
-											<li>Manager of the systems testing team for the 2012 and 2014 Brazilian elections.</li>
-											<li>[2012 - 2014] Manager of the IT processes office of the IT Planning and Management Advisory.</li>
-											<li>[2008 - 2015] Technical consultant for the IT Planning and Management Advisory.</li>
-											<li>[2007] Data Warehouse/Data Mart Developer.</li>
-										</ul>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-										    	<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Software Architecture</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Secure Software Development</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Technological Prospecting</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Project Management</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Team Management</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Business Process Management System (BPMS -jBPM)</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Agile Software Development </span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Microservices</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>	
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Elasticsearch</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Java</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Angular</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">CI/CD pipelines</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JBoss EAP</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Python</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Function Point</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Software Testing</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Software Process Improvement</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">IT Governance</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Outsourcing Services</span></li>	   
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle APEX</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">SAP PowerDesigner</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle Business Intelligence</span></li>	
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Data Warehouse / Data Mart</span></li>											    
-											</ul>
-										</p>										
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Administrative Analyst - Information Technology</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Agência Nacional de Telecomunicações (Anatel) | 2007 - 2007</div>
-										
-									</div>
-									<div class="item-content">
-										<p>IT system analyst in the management and supervision of software development outsourcing services to administrative systems of the Brazilian Regulatory Agency.</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Outsourcing Services</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Requirement Engineering</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Software Testing</span></li>			    
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->								
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Engineer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Politec Information Technology | <br>2004 - 2006</div>
-										
-									</div>
-									<div class="item-content">
-										<p>Software Engineer in the development project of Caixa Econômica Federal's market and liquidity risk analysis system, a system that met the requirements of the Basel Accord and the Brazil's Central Bank.</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Java / JEE</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sybase</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">IBM Rational Tools</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">UML</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">OOA/OOD</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Requirement Engineering</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Function point</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Software Testing</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">SAP PowerDesigner</span></li>			    
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">IT Consultant </h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Projetare Engenharia de Software  | 2004 - 2004</div>	
-									</div>
-									<div class="item-content">
-										<p>IT consulting in maintenance (corrective/evolutionary/adaptive) and technical support of solution for the automatic provisioning (activation) of telecommunications services (Broadband, GSM Mobile Telephony, Fixed Telephony) of the  Brasil Telecom (BrT) company.</p>
-										<p>Technologies used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Java</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Unix HP-UX</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Nortel ASAP</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">GSM (Global System for Mobile Communications)</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">ADSL</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Switched Fixed Telephony Service (STFC)</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Message Broker</span></li>								    
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->								
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Requirements Analyst</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Cast group | <br>2004 - 2004</div>
-									</div>
-									<div class="item-content">
-										<p>Software Requirements Analyst in the "Justiça Moderna" software project of the  Brazil's Court of Justice of the Federal District and Territories.</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">IBM Rational Tools</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">UML</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">OOA/OOD</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Requirement Engineering</span></li>
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">CTIS Information Technology | <br>2003 - 2003</div>
-									</div>
-									<div class="item-content">
-										<p>Software Requirements Analyst, Software Design and Software Developer in maintenance of Human Resources Management software and Account Process Management software for the Brazil's Federal Court of Accounts (TCU). </p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Delphi</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Java / JEE</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">IBM Rational Tools</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">UML</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">OOA/OOD</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Requirement Engineering</span></li>
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Network Analyst/Consultant</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">NT Group | <br>2000 - 2003</div>
-									</div>
-									<div class="item-content">
-										<p>Network Analyst and Developer in the COMVERGER® solution project, a corporate governance system for Telecom and IT networks. Network Consultant in deployments, customizations and supports of Hewlett-Packard's HP OpenView Performance Insight (OVPI) software in clients from the private and public sectors.</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Delphi</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Perl</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Linux/Unix (Solaris, HP-UX, AIX)</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sybase</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Data warehouse</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Data Mining</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HP Openview</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Network Management System (NMS)</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">TCP/IP</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Frame Relay</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">ATM network</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PABX</span></li>
-										    </ul>
-										</p>
-									</div>
-								</div><!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Intern</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"> Serviço Federal de Processamento de Dados (SERPRO) | 2018 - 2000 </div>
-									</div>
-									<div class="item-content">
-										<p>Delphi developer in the software project to support the software functional sizing process in Function Points. ETL developer in the Data Warehousing solution project for auditing access control to the Brazilian Federal Revenue systems.</p>
-										<p>Technologies/Technical Skills used: 
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Delphi</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Oracle</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Function point</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">ADABAS</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Natural</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Data warehouse</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">OLAP</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">SAP BusinessObjects</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">SAS System Architecture</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Roscoe</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Extra!</span></li>
-										    </ul>
-										</p>
-									</div>										    
-								</div><!--//item-->
-								
-							</section><!--//work-section-->
-
-							
-							
-								
-						</div><!--//resume-main-->
-						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-							<center><a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank"><img width="200" height="200" src="assets/images/AWS-Certified-Machine-Learning-Specialty_badge.png" alt="image"></a></center>
-							<section class="skills-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
-								<div class="item">
-									<h4 class="item-title">Technical (Hard Skills)</h4>
-									<ul class="list-unstyled resume-skills-list">
-										<li class="mb-2">Java/Angular/Vue/Python/R<li></li>
-										<li class="mb-2">Machine Learning on AWS (Amazon Web Services)</li>
-										<li class="mb-2">Deep Learning</li>
-										<li class="mb-2">TensorFlow/PyTorch/Keras/Scikit-learn</li>
-										<li class="mb-2">Natural Language Processing</li>
-										<li class="mb-2">Microservices Architecture<li>
-										<li class="mb-2">Business Intelligence (BI)</li>
-										<li class="mb-2">Data Analysis</li>
-										<li class="mb-2">PostgreSQL/Oracle/Elasticsearch</li>
-										<li class="mb-2">Object-Oriented Analysis and Design </li>
-										<li class="mb-2">Secure Software Development</li>
-										<li class="mb-2">Project Management/Scrum</li>
-										<li class="mb-2">Cybersecurity</li>
-										<li class="mb-2">Project management</li>
-										<li class="mb-2">Requirements Engineering</li>
-										<li class="mb-2">Software Testing</li>
-										<li class="mb-2">Computer Network</li>
-										<li class="mb-2">IT outsourcing</li>
-										<li class="mb-2">ITIL</li>
-										<li class="mb-2">Electronic Legal Process</li>
-									</ul>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-title">Professional (Soft Skills)</h4>
-										<ul class="list-unstyled resume-skills-list">
-											<li class="mb-2">Teamwork</li>
-											<li class="mb-2">Adaptability</li>
-											<li class="mb-2">Flexibility</li>
-											<li class="mb-2">Strategic Thinking</li>
-											<li class="mb-2">Critical Thinking</li>
-											<li class="mb-2">Leadership</li>
-											<li class="mb-2">Work Ethic</li>
-											<li class="mb-2">Self-motivation</li>
-											<li class="mb-2">Collaboration</li>
-											<li class="mb-2">Resilience</li>
-											<li class="mb-2">Accountability</li>
-											<li class="mb-2">Open-Mindedness</li>
-											<li class="mb-2">Attention to Detail</li>
-											<li class="mb-2">Patience</li>
-											<li class="mb-2">Learning Agility</li>
-											<li class="mb-2">Building Trust</li>
-											<li class="mb-2">Assertiveness</li>
-											<li class="mb-2">Self-Awareness</li>
-											<li class="mb-2">Cultural Awareness</li>
-										</ul>
-										</div><!--//item-->
-									</section><!--//skills-section-->
-
-
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
-										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">Brazilian Portuguese <span class="text-muted">(Native)</span></li>
-											<li class="mb-2">English <span class="text-muted">(CEFR Level B2)</span></li>
-											<li class="mb-2">Spanish <span class="text-muted">(Basic)</span></li>
-										</ul>
-									</section><!--//certificates-section-->
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
-										<ul class="list-unstyled resume-interests-list mb-0">
-											<h4 class="item-title">Technical</h4>
-											<li class="mb-2">Machine Learning/Unlearning</li>
-											<li class="mb-2">Deep Learning</li>
-											<li class="mb-2">NLP (Natural Language Processing)</li>
-											<li class="mb-2">Kaggle Competitions</li>
-											<li class="mb-2">Software Architecture</li>
-											<li class="mb-2">Microservices Architecture</li>
-											<li class="mb-2">Cloud Computing</li>
-											<li class="mb-2">Software Development</li>
-											<li class="mb-2">Cybersecurity</li>	
-											<li class="mb-2">Data Protection</li>											 
-											<h4 class="item-title">Non-Technical</h4>
-											<li class="mb-2">The Gospel of Jesus Christ</li>
-											<li class="mb-2">Learning English</li>
-											<li class="mb-2">Sci-Fi / History Movies and TV Shows</li>
-											<li class="mb-2">Science Fiction Books</li>
-											<li class="mb-2">First Person Shooter Games</li>											
-											<li class="mb-2">Brazilian Jiu-Jitsu</li>											
-										</ul>
-									</section><!--//certificates-section-->
-									
-								</aside><!--//resume-aside-->
-							</div><!--//row-->
-						</div><!--//resume-body-->
-						<hr>
-						<div class="resume-footer text-center">
-							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/fabianumfalco" target="_blank"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/fabianumfalco</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://www.linkedin.com/in/fabiano-falcao/" target="_blank"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/fabiano-falcao</span></a></li>
-							</ul>
-						</div><!--//resume-footer-->
-					</article>
-					
-				</div><!--//container-->
-				
-				<footer class="footer text-center py-4">
-					<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-					<small class="copyright text-muted">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-				</footer>
-				
-			</div><!--//main-wrapper-->
-
-
-			<!-- Javascript -->          
-			<script src="assets/plugins/popper.min.js"></script> 
-			<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-			
-			<!-- Dark Mode -->
-			<script src="assets/plugins/js-cookie.min.js"></script>
-			<script src="assets/js/dark-mode.js"></script>
-  
-		
-		</body>
-		</html> 
-
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Resume | Fabiano Falcão
+  </title>
+  <meta content="Professional experience, education and skills of Fabiano Falcão, an IT professional working in governance, software engineering, artificial intelligence and privacy." name="description"/>
+  <meta content="Fabiano Falcão" name="author"/>
+  <meta content="light dark" name="color-scheme"/>
+  <link href="https://fabianumfalco.github.io/resume.html" rel="canonical"/>
+  <link href="favicon.ico" rel="icon"/>
+  <meta content="website" property="og:type"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="Resume | Fabiano Falcão" property="og:title"/>
+  <meta content="Professional experience, education and skills of Fabiano Falcão, an IT professional working in governance, software engineering, artificial intelligence and privacy." property="og:description"/>
+  <meta content="https://fabianumfalco.github.io/resume.html" property="og:url"/>
+  <meta content="Fabiano Falcão" property="og:site_name"/>
+  <meta content="https://fabianumfalco.github.io/assets/images/profile-lg.jpg" property="og:image"/>
+  <meta content="800" property="og:image:width"/>
+  <meta content="600" property="og:image:height"/>
+  <meta content="Fabiano Falcão" property="og:image:alt"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <script src="assets/js/dark-mode.js">
+  </script>
+  <link href="assets/css/theme-1.css" rel="stylesheet"/>
+  <link href="assets/css/site.css" rel="stylesheet"/>
+  <script defer="" src="assets/js/site.js">
+  </script>
+  <link href="assets/css/resume.css" rel="stylesheet"/>
+  <script defer="" src="assets/js/resume.js">
+  </script>
+ </head>
+ <body class="resume-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <header class="header text-center">
+   <p class="blog-name pt-lg-4 mb-0">
+    <a class="no-text-decoration" href="index.html">
+     Fabiano Falcão
+    </a>
+   </p>
+   <nav aria-label="Main navigation" class="navbar navbar-expand-lg navbar-dark">
+    <button aria-controls="navigation" aria-expanded="false" aria-label="Open navigation" class="navbar-toggler" hidden="" type="button">
+     <svg aria-hidden="true" class="site-icon" focusable="false">
+      <use href="assets/images/icons.svg#bars">
+      </use>
+     </svg>
+     <span>
+      Menu
+     </span>
+    </button>
+    <div class="site-navigation flex-column" id="navigation">
+     <ul class="navbar-nav flex-column text-start">
+      <li class="nav-item">
+       <a class="nav-link" href="index.html">
+        <svg aria-hidden="true" class="site-icon" focusable="false">
+         <use href="assets/images/icons.svg#house">
+         </use>
+        </svg>
+        About Me
+       </a>
+      </li>
+      <li class="nav-item">
+       <a aria-current="page" class="nav-link active" href="resume.html">
+        <svg aria-hidden="true" class="site-icon" focusable="false">
+         <use href="assets/images/icons.svg#file-lines">
+         </use>
+        </svg>
+        Resume
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="index.html#research">
+        Research
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="index.html#contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+     <div class="profile-section pt-3">
+      <img alt="Portrait of Fabiano Falcão" class="profile-image mb-3 rounded-circle mx-auto" decoding="async" height="160" src="assets/images/resume-profile.jpeg" width="160"/>
+      <p class="bio mb-3">
+       IT Advisor, Software Engineer, and AI, Software Engineering &amp; Cybersecurity Researcher. Over 25 years of experience in technology, governance, and digital transformation.
+      </p>
+      <ul class="social-list list-inline py-3 mx-auto">
+       <li>
+        <a aria-label="LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/fabiano-falcao/" rel="noopener noreferrer" target="_blank">
+         <svg aria-hidden="true" class="site-icon" focusable="false">
+          <use href="assets/images/icons.svg#linkedin-in">
+          </use>
+         </svg>
+        </a>
+       </li>
+       <li>
+        <a aria-label="GitHub (opens in a new tab)" href="https://github.com/fabianumfalco" rel="noopener noreferrer" target="_blank">
+         <svg aria-hidden="true" class="site-icon" focusable="false">
+          <use href="assets/images/icons.svg#github-alt">
+          </use>
+         </svg>
+        </a>
+       </li>
+       <li>
+        <a aria-label="Email Fabiano Falcão" href="mailto:fabianum.falco@gmail.com">
+         <svg aria-hidden="true" class="site-icon" focusable="false">
+          <use href="assets/images/icons.svg#envelope">
+          </use>
+         </svg>
+        </a>
+       </li>
+       <li>
+        <a aria-label="Lattes academic CV (opens in a new tab)" href="https://lattes.cnpq.br/5596149568174178" rel="noopener noreferrer" target="_blank">
+         <svg aria-hidden="true" class="site-icon" focusable="false">
+          <use href="assets/images/icons.svg#globe">
+          </use>
+         </svg>
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="theme-control">
+      <label for="theme-preference">
+       Appearance
+      </label>
+      <select disabled="" id="theme-preference" name="theme">
+       <option value="system">
+        System
+       </option>
+       <option value="light">
+        Light
+       </option>
+       <option value="dark">
+        Dark
+       </option>
+      </select>
+      <p class="theme-hint">
+       Choose a theme or follow your device.
+      </p>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main class="main-wrapper" id="main-content" tabindex="-1">
+   <section class="cta-section resume-page-heading">
+    <div class="container">
+     <p class="eyebrow">
+      Experience · Education · Skills
+     </p>
+     <h1 class="heading mb-3">
+      Resume
+     </h1>
+     <p class="resume-introduction">
+      Professional experience, academic background and areas of expertise.
+     </p>
+     <nav aria-label="Resume sections" class="resume-jump-links">
+      <a href="#experience">
+       Experience
+      </a>
+      <a href="#education">
+       Education
+      </a>
+      <a href="#certification">
+       Certification
+      </a>
+      <a href="#skills">
+       Skills
+      </a>
+      <a href="#languages">
+       Languages
+      </a>
+     </nav>
+    </div>
+   </section>
+   <div class="container resume-container">
+    <article aria-labelledby="resume-name" class="resume-wrapper">
+     <div class="resume-header">
+      <div class="resume-header-grid">
+       <div class="resume-title">
+        <h2 class="resume-name" id="resume-name">
+         Fabiano Falcão
+        </h2>
+        <div class="resume-tagline">
+         IT Advisor · Software Engineer · AI &amp; Software Engineering Researcher
+        </div>
+       </div>
+       <address aria-label="Contact and professional profiles" class="resume-contact">
+        <ul class="list-unstyled mb-0">
+         <li>
+          <a class="resume-link" href="https://www.linkedin.com/in/fabiano-falcao/" rel="noopener noreferrer" target="_blank">
+           LinkedIn
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+          ·
+          <a class="resume-link" href="https://github.com/fabianumfalco" rel="noopener noreferrer" target="_blank">
+           GitHub
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+         </li>
+         <li class="mb-2">
+          <svg aria-hidden="true" class="site-icon me-2" focusable="false">
+           <use href="assets/images/icons.svg#square-envelope">
+           </use>
+          </svg>
+          <a class="resume-link" href="mailto:fabianum.falco@gmail.com">
+           fabianum.falco@gmail.com
+          </a>
+         </li>
+         <li class="mb-2">
+          <svg aria-hidden="true" class="site-icon me-2" focusable="false">
+           <use href="assets/images/icons.svg#medium">
+           </use>
+          </svg>
+          <a class="resume-link" href="https://fabianofalcao.medium.com/" rel="noopener noreferrer" target="_blank">
+           Articles on Medium
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+         </li>
+         <li class="mb-2">
+          <svg aria-hidden="true" class="site-icon me-2" focusable="false">
+           <use href="assets/images/icons.svg#globe">
+           </use>
+          </svg>
+          <a class="resume-link" href="https://lattes.cnpq.br/5596149568174178" rel="noopener noreferrer" target="_blank">
+           Lattes resume (Brazil)
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+         </li>
+         <li class="mb-2">
+          <svg aria-hidden="true" class="site-icon me-2" focusable="false">
+           <use href="assets/images/icons.svg#graduation-cap">
+           </use>
+          </svg>
+          <a class="resume-link" href="https://scholar.google.com.br/citations?user=kKUVlwTr8GQC&amp;hl=en" rel="noopener noreferrer" target="_blank">
+           Google Scholar
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+         </li>
+         <li class="mb-0">
+          <svg aria-hidden="true" class="site-icon me-2" focusable="false">
+           <use href="assets/images/icons.svg#location-dot">
+           </use>
+          </svg>
+          Brasília, Brazil (GMT -03:00)
+         </li>
+        </ul>
+       </address>
+      </div>
+     </div>
+     <div class="resume-intro">
+      <div class="resume-summary-grid">
+       <img alt="Portrait of Fabiano Falcão" class="resume-profile-image rounded-circle" decoding="async" height="120" src="assets/images/resume-profile.jpeg" width="120"/>
+       <div>
+        <h3 class="resume-summary-heading">
+         Professional profile
+        </h3>
+        <p>
+         IT professional with more than 25 years of experience in software engineering, IT governance, technology management and digital transformation. My background combines hands-on engineering with leadership and advisory roles in large Brazilian public-sector organizations.
+        </p>
+        <p>
+         I currently work at the Brazilian Chamber of Deputies, advising on ICT procurement, budget planning and governance. I hold a Professional Master’s degree in Electrical Engineering from the University of Brasília (UnB), completed in the first half of 2026, with research in artificial intelligence, software engineering and data privacy.
+        </p>
+        <div class="resume-actions">
+         <a class="btn btn-primary" href="mailto:fabianum.falco@gmail.com">
+          Get in touch
+         </a>
+         <button class="btn btn-outline-secondary" hidden="" id="print-resume" type="button">
+          Print / Save PDF
+         </button>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="resume-body">
+      <div class="resume-columns">
+       <div class="resume-main">
+        <section aria-labelledby="experience-heading" class="resume-main-section" id="experience">
+         <h3 class="resume-section-heading" id="experience-heading">
+          Professional experience
+         </h3>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Legislative Analyst - Information Technology
+           </h4>
+           <p class="resume-organization">
+            Câmara dos Deputados
+           </p>
+           <p class="resume-dates">
+            2024–Present
+           </p>
+          </div>
+          <div class="item-content">
+           <div class="resume-role">
+            <h5>
+             ICT Technical Advisor
+             <span class="resume-role-dates">
+              2025–Present
+             </span>
+            </h5>
+            <p>
+             Legal Support Unit (Sejur), Administrative Management Coordination Office (Cogea), Innovation and Information Technology Directorate (Ditec), the institution’s central ICT organization led by the CIO.
+            </p>
+            <ul class="resume-list">
+             <li>
+              Plan ICT procurement and budgets, and support budget management.
+             </li>
+             <li>
+              Review procurement planning documents and analyze IT regulations and policies.
+             </li>
+             <li>
+              Support ICT governance initiatives and advise on administrative and strategic IT matters.
+             </li>
+            </ul>
+           </div>
+           <div class="resume-role">
+            <h5>
+             Java Developer
+             <span class="resume-role-dates">
+              2024–2025
+             </span>
+            </h5>
+            <p>
+             Developed, maintained and supported corporate systems for human resources management.
+            </p>
+           </div>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             IT Technical Consulting
+            </li>
+            <li>
+             IT Governance
+            </li>
+            <li>
+             IT Bidding and Contracts
+            </li>
+            <li>
+             Java
+            </li>
+            <li>
+             Oracle
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Judiciary Analyst - Information Technology
+           </h4>
+           <p class="resume-organization">
+            Tribunal Superior Eleitoral (TSE)
+           </p>
+           <p class="resume-dates">
+            2007–2024
+           </p>
+          </div>
+          <div class="item-content">
+           <ul class="resume-list">
+            <li>
+             <strong>
+              2024:
+             </strong>
+             Technical lead for the Software Architecture, Secure Development and Technology Research team supporting judicial proceedings and political-party accountability systems.
+            </li>
+            <li>
+             <strong>
+              2021–2024:
+             </strong>
+             Technical consultant in a working group researching and recommending AI solutions for the Brazilian Electoral Justice.
+            </li>
+            <li>
+             <strong>
+              2015–2023:
+             </strong>
+             Systems analyst and manager of the support and innovation team for the judicial case management system used by the Brazilian Electoral Justice.
+            </li>
+            <li>
+             Led customization and deployment of Processo Judicial Eletrônico (PJe) for the Brazilian Electoral Justice, and managed its technical support team during the 2018 and 2020 Brazilian elections.
+            </li>
+            <li>
+             Managed the systems testing team for the 2012 and 2014 Brazilian elections.
+            </li>
+            <li>
+             <strong>
+              2012–2014:
+             </strong>
+             Managed the IT processes office within the IT Planning and Management Advisory.
+            </li>
+            <li>
+             <strong>
+              2008–2015:
+             </strong>
+             Technical consultant for the IT Planning and Management Advisory.
+            </li>
+            <li>
+             <strong>
+              2007:
+             </strong>
+             Data warehouse and data mart developer.
+            </li>
+           </ul>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Software Architecture
+            </li>
+            <li>
+             Secure Software Development
+            </li>
+            <li>
+             Technological Prospecting
+            </li>
+            <li>
+             Project Management
+            </li>
+            <li>
+             Team Management
+            </li>
+            <li>
+             Business Process Management System (BPMS -jBPM)
+            </li>
+            <li>
+             Agile Software Development
+            </li>
+            <li>
+             Microservices
+            </li>
+            <li>
+             Oracle
+            </li>
+            <li>
+             PostgreSQL
+            </li>
+            <li>
+             Elasticsearch
+            </li>
+            <li>
+             Java
+            </li>
+            <li>
+             Angular
+            </li>
+            <li>
+             CI/CD pipelines
+            </li>
+            <li>
+             JBoss EAP
+            </li>
+            <li>
+             Python
+            </li>
+            <li>
+             Function Point
+            </li>
+            <li>
+             Software Testing
+            </li>
+            <li>
+             Software Process Improvement
+            </li>
+            <li>
+             IT Governance
+            </li>
+            <li>
+             Outsourcing Services
+            </li>
+            <li>
+             Oracle APEX
+            </li>
+            <li>
+             SAP PowerDesigner
+            </li>
+            <li>
+             Oracle Business Intelligence
+            </li>
+            <li>
+             Data Warehouse / Data Mart
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Administrative Analyst - Information Technology
+           </h4>
+           <p class="resume-organization">
+            Agência Nacional de Telecomunicações (Anatel)
+           </p>
+           <p class="resume-dates">
+            2007
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Managed and supervised outsourced development of administrative systems for Agência Nacional de Telecomunicações (Anatel).
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Outsourcing Services
+            </li>
+            <li>
+             Requirements Engineering
+            </li>
+            <li>
+             Software Testing
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Software Engineer
+           </h4>
+           <p class="resume-organization">
+            Politec Information Technology
+           </p>
+           <p class="resume-dates">
+            2004–2006
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Worked on Caixa Econômica Federal’s market and liquidity risk analysis system, meeting requirements of the Basel Accord and Brazil’s Central Bank.
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Java / JEE
+            </li>
+            <li>
+             Oracle
+            </li>
+            <li>
+             Sybase
+            </li>
+            <li>
+             IBM Rational Tools
+            </li>
+            <li>
+             UML
+            </li>
+            <li>
+             OOA/OOD
+            </li>
+            <li>
+             Requirements Engineering
+            </li>
+            <li>
+             Function points
+            </li>
+            <li>
+             Software Testing
+            </li>
+            <li>
+             SAP PowerDesigner
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            IT Consultant
+           </h4>
+           <p class="resume-organization">
+            Projetare Engenharia de Software
+           </p>
+           <p class="resume-dates">
+            2004
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Provided corrective, evolutionary and adaptive maintenance and technical support for Brasil Telecom’s automatic telecommunications service provisioning solution, covering broadband, GSM mobile telephony and fixed telephony.
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Java
+            </li>
+            <li>
+             Unix HP-UX
+            </li>
+            <li>
+             Nortel ASAP
+            </li>
+            <li>
+             GSM (Global System for Mobile Communications)
+            </li>
+            <li>
+             ADSL
+            </li>
+            <li>
+             Switched Fixed Telephony Service (STFC)
+            </li>
+            <li>
+             Message Broker
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Software Requirements Analyst
+           </h4>
+           <p class="resume-organization">
+            Cast group
+           </p>
+           <p class="resume-dates">
+            2004
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Analyzed software requirements for the Justiça Moderna project at the Court of Justice of the Federal District and Territories (TJDFT).
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             IBM Rational Tools
+            </li>
+            <li>
+             UML
+            </li>
+            <li>
+             OOA/OOD
+            </li>
+            <li>
+             Requirements Engineering
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Software Developer
+           </h4>
+           <p class="resume-organization">
+            CTIS Information Technology
+           </p>
+           <p class="resume-dates">
+            2003
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Analyzed requirements, designed software and maintained human resources and account process management systems for Brazil’s Federal Court of Accounts (TCU).
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Delphi
+            </li>
+            <li>
+             Java / JEE
+            </li>
+            <li>
+             Oracle
+            </li>
+            <li>
+             IBM Rational Tools
+            </li>
+            <li>
+             UML
+            </li>
+            <li>
+             OOA/OOD
+            </li>
+            <li>
+             Requirements Engineering
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Network Analyst/Consultant
+           </h4>
+           <p class="resume-organization">
+            NT Group
+           </p>
+           <p class="resume-dates">
+            2000–2003
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Worked as a network analyst and developer on COMVERGER®, a governance system for telecommunications and IT networks. Provided consulting for deployments, customization and support of HP OpenView Performance Insight for public- and private-sector clients.
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Delphi
+            </li>
+            <li>
+             Perl
+            </li>
+            <li>
+             Linux/Unix (Solaris, HP-UX, AIX)
+            </li>
+            <li>
+             Sybase
+            </li>
+            <li>
+             Data warehouse
+            </li>
+            <li>
+             Data Mining
+            </li>
+            <li>
+             HP OpenView
+            </li>
+            <li>
+             Network Management System (NMS)
+            </li>
+            <li>
+             TCP/IP
+            </li>
+            <li>
+             Frame Relay
+            </li>
+            <li>
+             ATM network
+            </li>
+            <li>
+             PABX
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Intern
+           </h4>
+           <p class="resume-organization">
+            Serviço Federal de Processamento de Dados (SERPRO)
+           </p>
+           <p class="resume-dates resume-review-note">
+            Dates to be confirmed
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Developed Delphi software supporting functional sizing with function points. Developed ETL processes for a data warehouse used to audit access controls for Brazilian Federal Revenue systems.
+           </p>
+           <p class="resume-technologies-label">
+            Technologies &amp; practices
+           </p>
+           <ul class="resume-technologies">
+            <li>
+             Delphi
+            </li>
+            <li>
+             Oracle
+            </li>
+            <li>
+             Function points
+            </li>
+            <li>
+             ADABAS
+            </li>
+            <li>
+             Natural
+            </li>
+            <li>
+             Data warehouse
+            </li>
+            <li>
+             OLAP
+            </li>
+            <li>
+             SAP BusinessObjects
+            </li>
+            <li>
+             SAS System Architecture
+            </li>
+            <li>
+             Roscoe
+            </li>
+            <li>
+             Extra!
+            </li>
+           </ul>
+          </div>
+         </div>
+        </section>
+        <section aria-labelledby="education-heading" class="resume-main-section" id="education">
+         <h3 class="resume-section-heading" id="education-heading">
+          Education
+         </h3>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Professional Master's in Electrical Engineering
+           </h4>
+           <p class="resume-organization">
+            University of Brasília (UnB)
+           </p>
+           <p class="resume-dates">
+            2024–2026 · Completed in the first half of 2026
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Professional Graduate Program in Electrical Engineering (PPEE), Department of Electrical Engineering, University of Brasília. Supervised by
+            <a href="https://ednacanedo.github.io/" rel="noopener noreferrer" target="_blank">
+             Edna Dias Canedo, PhD
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+            .
+           </p>
+           <p>
+            Dissertation:
+            <a href="https://ppee.unb.br/wp-content/uploads/2026/06/DISSERTACAO.pdf" rel="noopener noreferrer" target="_blank">
+             Evaluating Architectural Strategies for Personal Data Detection in Java Source Code Using Transformer Classifiers and Large Language Models
+             <span class="visually-hidden">
+              (PDF, opens in a new tab)
+             </span>
+            </a>
+           </p>
+           <p>
+            Defense:
+            <time datetime="2026-05-26">
+             26 May 2026
+            </time>
+            . Dissertation record: PPEE.MP.114.
+           </p>
+           <p>
+            Research line: Human, organizational, legal and regulatory aspects of cybersecurity.
+           </p>
+           <p>
+            <a href="https://ppee.unb.br/?page_id=36" rel="noopener noreferrer" target="_blank">
+             University of Brasília academic record
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+            ·
+            <a href="https://sigaa.unb.br/sigaa/public/programa/noticias_desc.jsf?lc=pt_BR&amp;id=1621&amp;noticia=21777208" rel="noopener noreferrer" target="_blank">
+             SIGAA defense announcement
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+           </p>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Leadership MBA
+           </h4>
+           <p class="resume-organization">
+            Instituto de Pós-Graduação e Graduação (IPOG)
+           </p>
+           <p class="resume-dates">
+            2021–2022
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Specialist degree with MBA (Master of Business Administration) in Strategic Leadership and Development of High Performance Teams at
+            <a href="https://ipog.edu.br/" rel="noopener noreferrer" target="_blank">
+             Instituto de Pós-Graduação e Graduação (IPOG)
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+            (In English: Postgraduate and Undergraduate Institute)
+           </p>
+           <p>
+            Dissertation: Improvements in Electoral Justice indicators after the implementation of the Electronic Judicial Process and growth in remote work driven by the Covid-19 pandemic
+           </p>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Specialist in Software Engineering
+           </h4>
+           <p class="resume-organization">
+            Catholic University of Brasilia (UCB)
+           </p>
+           <p class="resume-dates">
+            2003–2005
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Specialist degree in Software Engineering at the
+            <a href="https://ucb.catolica.edu.br/" rel="noopener noreferrer" target="_blank">
+             Catholic University of Brasilia (UCB)
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+           </p>
+           <p>
+            Dissertation: A Measurement Approach Using Function Points in the Unified Process
+           </p>
+          </div>
+         </div>
+         <div class="resume-entry">
+          <div class="resume-entry-heading">
+           <h4 class="item-title">
+            Computer Science BS
+           </h4>
+           <p class="resume-organization">
+            Catholic University of Brasilia (UCB)
+           </p>
+           <p class="resume-dates">
+            1997–2001
+           </p>
+          </div>
+          <div class="item-content">
+           <p>
+            Bachelor of Science (BS) in Computer Science with a concentration in computer networks at the
+            <a href="https://ucb.catolica.edu.br/" rel="noopener noreferrer" target="_blank">
+             Catholic University of Brasilia (UCB)
+             <span class="visually-hidden">
+              (opens in a new tab)
+             </span>
+            </a>
+            .
+           </p>
+           <p>
+            Dissertation: PitCop - Sistema de Detecção de Intrusos (IDS - Intrusion Detection System)
+           </p>
+          </div>
+         </div>
+        </section>
+       </div>
+       <aside aria-label="Credentials, skills and interests" class="resume-aside">
+        <section aria-labelledby="certification-heading" class="resume-side-section" id="certification">
+         <h3 class="resume-section-heading" id="certification-heading">
+          Certification
+         </h3>
+         <p class="resume-credential-name">
+          AWS Certified Machine Learning – Specialty
+         </p>
+         <p class="resume-credential-description">
+          Machine learning on Amazon Web Services.
+         </p>
+         <div class="certification-badge text-center">
+          <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" rel="noopener noreferrer" target="_blank">
+           <img alt="AWS Certified Machine Learning – Specialty credential" decoding="async" height="200" loading="lazy" src="assets/images/AWS-Certified-Machine-Learning-Specialty_badge.png" width="200"/>
+           <span class="visually-hidden">
+            (opens in a new tab)
+           </span>
+          </a>
+         </div>
+        </section>
+        <section aria-labelledby="skills-heading" class="resume-side-section" id="skills">
+         <h3 class="resume-section-heading" id="skills-heading">
+          Skills
+         </h3>
+         <div class="resume-skill-group">
+          <h4>
+           Programming &amp; frameworks
+          </h4>
+          <p>
+           Java, Angular, Vue, Python, R.
+          </p>
+         </div>
+         <div class="resume-skill-group">
+          <h4>
+           AI &amp; data
+          </h4>
+          <p>
+           Machine learning on AWS, deep learning, natural language processing, TensorFlow, PyTorch, Keras, scikit-learn, data analysis and business intelligence.
+          </p>
+         </div>
+         <div class="resume-skill-group">
+          <h4>
+           Databases &amp; search
+          </h4>
+          <p>
+           PostgreSQL, Oracle, Elasticsearch.
+          </p>
+         </div>
+         <div class="resume-skill-group">
+          <h4>
+           Engineering &amp; security
+          </h4>
+          <p>
+           Microservices architecture, object-oriented analysis and design, requirements engineering, software testing, secure software development, cybersecurity and computer networks.
+          </p>
+         </div>
+         <div class="resume-skill-group">
+          <h4>
+           Governance &amp; delivery
+          </h4>
+          <p>
+           Project management, Scrum, IT outsourcing, ITIL and electronic judicial processes.
+          </p>
+         </div>
+         <div class="resume-skill-group">
+          <h4>
+           Professional strengths
+          </h4>
+          <ul class="resume-strengths">
+           <li class="mb-2">
+            Teamwork
+           </li>
+           <li class="mb-2">
+            Adaptability
+           </li>
+           <li class="mb-2">
+            Flexibility
+           </li>
+           <li class="mb-2">
+            Strategic Thinking
+           </li>
+           <li class="mb-2">
+            Critical Thinking
+           </li>
+           <li class="mb-2">
+            Leadership
+           </li>
+           <li class="mb-2">
+            Work Ethic
+           </li>
+           <li class="mb-2">
+            Self-motivation
+           </li>
+           <li class="mb-2">
+            Collaboration
+           </li>
+           <li class="mb-2">
+            Resilience
+           </li>
+           <li class="mb-2">
+            Accountability
+           </li>
+           <li class="mb-2">
+            Open-Mindedness
+           </li>
+           <li class="mb-2">
+            Attention to Detail
+           </li>
+           <li class="mb-2">
+            Patience
+           </li>
+           <li class="mb-2">
+            Learning Agility
+           </li>
+           <li class="mb-2">
+            Building Trust
+           </li>
+           <li class="mb-2">
+            Assertiveness
+           </li>
+           <li class="mb-2">
+            Self-Awareness
+           </li>
+           <li class="mb-2">
+            Cultural Awareness
+           </li>
+          </ul>
+         </div>
+        </section>
+        <section aria-labelledby="languages-heading" class="resume-side-section" id="languages">
+         <h3 class="resume-section-heading" id="languages-heading">
+          Languages
+         </h3>
+         <ul class="list-unstyled resume-lang-list">
+          <li class="mb-2">
+           Brazilian Portuguese
+           <span class="text-muted">
+            (Native)
+           </span>
+          </li>
+          <li class="mb-2">
+           English
+           <span class="text-muted">
+            (CEFR Level B2)
+           </span>
+          </li>
+          <li class="mb-2">
+           Spanish
+           <span class="text-muted">
+            (Basic)
+           </span>
+          </li>
+         </ul>
+        </section>
+        <section aria-labelledby="interests-heading" class="resume-side-section" id="interests">
+         <h3 class="resume-section-heading" id="interests-heading">
+          Beyond my work
+         </h3>
+         <h4 class="item-title">
+          Research &amp; technical interests
+         </h4>
+         <ul class="list-unstyled resume-interests-list">
+          <li class="mb-2">
+           Machine Learning/Unlearning
+          </li>
+          <li class="mb-2">
+           Deep Learning
+          </li>
+          <li class="mb-2">
+           NLP (Natural Language Processing)
+          </li>
+          <li class="mb-2">
+           Kaggle Competitions
+          </li>
+          <li class="mb-2">
+           Software Architecture
+          </li>
+          <li class="mb-2">
+           Microservices Architecture
+          </li>
+          <li class="mb-2">
+           Cloud Computing
+          </li>
+          <li class="mb-2">
+           Software Development
+          </li>
+          <li class="mb-2">
+           Cybersecurity
+          </li>
+          <li class="mb-2">
+           Data Protection
+          </li>
+         </ul>
+         <h4 class="item-title">
+          Personal interests
+         </h4>
+         <ul class="list-unstyled resume-interests-list">
+          <li class="mb-2">
+           The Gospel of Jesus Christ
+          </li>
+          <li class="mb-2">
+           Learning English
+          </li>
+          <li class="mb-2">
+           Sci-Fi / History Movies and TV Shows
+          </li>
+          <li class="mb-2">
+           Science Fiction Books
+          </li>
+          <li class="mb-2">
+           First Person Shooter Games
+          </li>
+          <li class="mb-2">
+           Brazilian Jiu-Jitsu
+          </li>
+         </ul>
+        </section>
+       </aside>
+      </div>
+     </div>
+    </article>
+   </div>
+  </main>
+  <footer class="footer site-footer text-center py-4">
+   <p>
+    Fabiano Falcão · Brasília, Brazil
+   </p>
+   <small>
+    Designed with
+    <span aria-label="love">
+     ♥
+    </span>
+    by
+    <a href="https://themes.3rdwavemedia.com/" rel="noopener noreferrer" target="_blank">
+     Xiaoying Riley
+     <span class="visually-hidden">
+      (opens in a new tab)
+     </span>
+    </a>
+    for developers.
+   </small>
+  </footer>
+ </body>
+</html>
